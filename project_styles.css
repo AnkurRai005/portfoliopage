@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Foldit:wght@500&family=Playfair+Display:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(145, 183, 221);
+}
+
+h5 {
+    color: rgb(13, 8, 71);
+    text-decoration: underline;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: grey;
+    width: 200px;
+    height: 100vh;
+    font-family: 'Bruno Ace SC', cursive;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 22px;
+    margin-top: 25px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 15px;
+    padding: 15px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 160px;
+}
+
+.main{
+    background-color: #474e5d;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Playfair Display', serif;
+}
+
+.container{
+    display: flex;
+}
+
+.projectContainer{
+    margin: 10px 0 0 10px;
+    padding: 10px;
+    color: aquamarine;
+}
+
+.projectContainer h1{
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+}
+
+.projectItems {
+    margin: 10px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    height: 70vh;
+    background-color: grey;
+}
+
+.card-body{
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+.grid-item img{
+    width: 31vw;
+    height: 40vh;
+    border-bottom: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body a {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
+    color: beige;
+    background-color: steelblue;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid rgba(0, 0, 0, 0.516);
+}
+.card-body a:hover {
+    color: steelblue;
+    background-color: beige;
+}
+
+.card p{
+    margin: 10px 0 15px 0;
+}
+
+.card li{
+    color: rgb(70, 3, 49);
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.projectItems p {
+    text-align: center;
+    color: rgb(223, 223, 10);
+}
+
+.main li{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.projectItems a {
+    color: rgb(223, 223, 10);
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+@media (max-width: 1215px) {
+    /* * {
+
+    } */
+
+    .devPic {
+        display: none;
+    }
+    /* .sidebar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+}

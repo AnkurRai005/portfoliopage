@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Foldit:wght@500&family=Playfair+Display:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: grey;
+    width: 200px;
+    height: 100vh;
+    font-family: 'Bruno Ace SC', cursive;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 22px;
+    margin-top: 25px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 15px;
+    padding: 15px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 160px;
+}
+
+.main{
+    background-color: #474e5d;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Playfair Display', serif;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /* background-color: rgb(147, 143, 227); */
+    width: 80vw;
+    height: 58vh;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img{
+    height: 58vh;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    color: aquamarine;
+}
+
+.hello{
+    font-size: 65px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.about{
+    font-size: 25px;
+}
+
+.moreAbout{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.buttons{
+    margin-top: 30px;
+    /* width: 50px; */
+}
+
+.buttons .btn-primary{
+    padding: 10px;
+    border-radius: 20px;
+    color: beige;
+    background-color: steelblue;
+    cursor: pointer;
+}
+
+.buttons .btn-primary:hover{
+    color: steelblue;
+    background-color: beige;
+}
+
+.contactForm{
+    padding: 0 144px;
+    padding-top: 144px;
+    margin-top: -100px;
+    margin-left: 250px;
+    color: aquamarine;
+}
+
+.contactForm h1{
+    /* text-align: center; */
+    padding: 12px 0;
+}
+
+.contactForm form div{
+    padding: 10px 0;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: dodgerblue;
+    margin: 0 5px;
+}
+
+.contactForm form div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.contactForm form div input{
+    width: 26vw;
+    border-radius: 12px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.card {
+    width: 200px;
+    border: 1px solid antiquewhite;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 200px;
+}
+
+.mb-3 textarea {
+    height: 130px;
+    width: 330px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.form-label::after{
+    content: "*";
+    color: red;
+}
+
+@media (max-width: 1215px) {
+    /* * {
+
+    } */
+
+    .devPic {
+        display: none;
+    }
+    /* .sidebar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+}
